@@ -21,8 +21,8 @@ def index(request):
 
         return render(request, 'mon_site/index.html', context)
     else:
-        firstname = 'Sanoussy'
-        lastname = 'Gassama'
+        firstname = 'Armel'
+        lastname = 'Drey'
         
 
         r = requests.get('http://api.icndb.com/jokes/random?firstName='+firstname+'&lastName='+lastname)

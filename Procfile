@@ -1,0 +1,1 @@
+web: gunicorn sitePersonnel.wsgi
